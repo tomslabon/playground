@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 public class SampleController {
 
-    @RequestMapping("/")
+    private static final String HELLO_WORLD = "Hello World!";
+
+	@RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return HELLO_WORLD;
     }
 
     public static void main(String[] args) throws Exception {
