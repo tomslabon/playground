@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 public class SampleController {
 
-    private static final String HELLO_WORLD = "Hello World!";
+    private static final String HELLO_WORLD = "Hello World!22";
 
 	@RequestMapping("/")
     @ResponseBody
